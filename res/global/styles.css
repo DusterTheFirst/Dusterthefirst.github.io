@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5{
 
 /*Mobile Changes*/
 @media (max-width: 426px){
-    #jumbotron h1, h2, h3, h4, h5{
+    #jumbotron h1.title{
         font-size: 2em;
     }
 }
