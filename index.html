@@ -1,9 +1,58 @@
-Hello 🙃<br>
-This page is being renovated<br>
-<h3>Popular Links</h3>
-<h4>
-<ul>
-   <li><a href="/2048">Meme 2048</a></li>
-   <li style="color: red;"><a href="#">Project Zimbabwe</a> - Temporarily down</li>
-</ul>
-</h4>
+<!DOCKTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="res/global/styles.css">
+        <title>DusterTheFirst</title>
+        <script src="/res/global/jquery-3.1.1.js"></script>
+    </head>
+    <body>
+        <div id="header"></div>
+        <div id="headerspacer">&nbsp;</div>
+        <script>
+            $("#header").load('/res/include/header.html');
+            var head = $("#header").height();
+            $("#headerspacer").height(head);
+        </script>
+        <div id="jumbotron">
+            <div class="contain">
+                <h1>DusterTheFirst</h1>
+                <div class="jitem"><a href="#about">About Me</a></div>
+            </div>
+        </div>
+        <div id="feed">Feed Here</div>
+        <style>
+            #pl h1, h2, h3 ,h4, h5{
+                font-size: 1em;
+            }
+            #pl{
+                color: aliceblue;
+                text-align: center;
+                margin-top: 10px;
+                background-color: blueviolet;
+                margin-left: 10%;
+                margin-right: 10%;
+                border-radius: 10px;
+                box-shadow: 5px 5px 10px #888888;
+            }
+            #pl ul{
+                list-style: none;
+            }
+            #pl ul li a{
+                text-decoration: none;
+                color: cornflowerblue;
+            }
+        </style>
+        <div id="pl">
+            Hello<br>
+            This page is being renovated<br>
+            <h3>Popular Links</h3>
+            <h4>
+            <ul>
+               <li><a href="/2048">Meme 2048</a></li>
+               <li style="color: red;"><a href="#">Project Zimbabwe</a> - Temporarily down</li>
+            </ul>
+            </h4>
+        </div>
+    </body>
+</html>
