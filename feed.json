@@ -1,14 +1,21 @@
 {
-    "New Site":{
-        "link":"/",
-        "linkname":"dusterthefirst.github.io",
-        "date":"Thursday, November 10, 2016",
-        "content":"<a href=\"#clikkkkity\">hello</a>"
+    "_rules":{
+        "comments in post":"Can be any tag other than the four used in _ref",
+        "comments on mainlevel":"Can be anything that starts with _",
+        "names":"Cannot Be Duplicate",
+        "posts shown":"5",
+        "tags in content":"yes, but escape quotes"
     },
-    "Old Ste Took Down":{
+    "_ref":{
+        "link":"Link URL",
+        "linkname":"Display Name For Link",
+        "date":"Date Of Post",
+        "content":"Content To Be Shown"
+    },
+    "dust":{
         "link":"/",
         "linkname":"dusterthefirst.github.io",
-        "date":"Thursday, November 10, 2016",
-        "content":"<a href=\"#clik\">hello</a>"
+        "date":"Friday, November 11, 2016",
+        "content":"<a href=\"#ds\">hello</a>"
     }
 }

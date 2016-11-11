@@ -16,36 +16,41 @@ $.getJSON( "/feed.json", function( data ) {
     contain.innerHTML = feeditm;
     //loops through all posts
     $.each( data, function(key, val) {
-        var elms = {};
-        $.each(val, function(key, val){
-            elms[key] = val;
-        })
-        alert("notded");
-        var tempcontain = contain.cloneNode(true);
-        var link = tempcontain.getElementsByClassName("link")[0];
-        var title = tempcontain.getElementsByClassName("title")[0];
-        var desc = tempcontain.getElementsByClassName("desc")[0];
-        var content = tempcontain.getElementsByClassName("feedcontent")[0];
-        var date = tempcontain.getElementsByClassName("feedate")[0];
-        alert(tempcontain.innerHTML);
-        title.innerHTML = key;
-//        desc.innerHTML = elms["linkname"];
-//        content.innerHTML = elms["content"];
-//        date.innerHTML = elms["date"];
-//        link.href = elms["link"];
-        li[count] = tempcontain;
-        count++;
-        alert(elms);
+        if(!key.startsWith("_")){
+            //gets all elements per feed
+            var elms = {};
+            $.each(val, function(key, val){
+                elms[key] = val;
+            })
+            //gets objs
+            var tempcontain = contain.cloneNode(true);
+            var link = tempcontain.getElementsByClassName("link")[0];
+            var title = tempcontain.getElementsByClassName("title")[0];
+            var desc = tempcontain.getElementsByClassName("desc")[0];
+            var content = tempcontain.getElementsByClassName("feedcontent")[0];
+            var date = tempcontain.getElementsByClassName("feeddate")[0];
+            //sets objs
+            title.innerHTML = key;
+            desc.innerHTML = elms["linkname"];
+            content.innerHTML = elms["content"];
+            date.innerHTML = elms["date"];
+            link.href = elms["link"];
+            //sets feedietm
+            li[count] = tempcontain;
+            //counts up
+            count++;
+        }
     });
-    alert(li);
     
+    //gets feed container
     var feed = document.getElementById("feed");
+    //adds all feed elements to one string
     var htm = "";
     for(var i = 0; i<5; i++){
         if(li[i] != null){
             htm += li[i].innerHTML;
         }
     }
+    //adds feeds to feed
     feed.innerHTML = htm;
-    alert(htm);
 });
