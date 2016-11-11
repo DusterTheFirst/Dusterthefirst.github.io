@@ -1,0 +1,43 @@
+.feeditem{
+    color: black;
+    text-align: left;
+    margin-top: 10px;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 2px;
+    padding: 5px;
+    box-shadow: 2px 2px 5px #cccccc;
+}
+.feeditem hr{
+    margin: 0px;
+    border: solid rgba(1,1,1,.2) .1px;
+}
+.feeditem .link{
+    text-decoration: none;
+    color: dodgerblue;
+    text-align: left;
+    font-size: 1.5em;
+}
+.feeditem .link .desc{
+    font-size: .5em;
+    color: forestgreen;
+}
+.feeditem a:visited{
+    color: blueviolet;
+}
+.feeditem .feeddate{
+    font-size: .7em;
+    color: slategray
+}
+.feeditem .feedcontent{
+    color: dimgray;
+}
+
+.hid{
+    display: none;
+}
+
+#feed{
+    column-count: 3;
+}

@@ -90,17 +90,22 @@ h1, h2, h3, h4, h5{
 /*Mobile Changes*/
 @media (max-width: 426px){
     #jumbotron h1.title{
-        font-size: 2em;
+        font-size: 2.5em;
+    }
+    #jumbotron a{
+        display: none;
     }
 }
 
 /*Tablet Changes*/
 @media (max-width: 768px){
-    
+    #jumbotron a{
+        display: none;
+    }
 }
 
 /*TV Or Large Display*/
-@media (max-width: 1440px){
+@media (max-width: 2560px){
     
 }
 
