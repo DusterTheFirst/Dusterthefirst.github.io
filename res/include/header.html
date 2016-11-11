@@ -1,7 +1,27 @@
-<ul>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#creations">Creations</a></li>
-    <li><a href="#games">Games</a></li>
-</ul>
+<div class="desktop">
+    <ul>
+         <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#creations">Creations</a></li>
+        <li><a href="#games">Games</a></li> 
+    </ul>
+</div>
+<div class="mobile">
+    <div id="menu">
+        <div id="drpbtn" onclick="openMenu()">&#9776;</div>
+        <a id="help" href="/contact.html">Help</a>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#creations">Creations</a></li>
+            <li><a href="#games">Games</a></li> 
+        </ul>
+    </div>
+</div>
+<script>
+    function openMenu(){
+        $("#menu ul").toggleClass("open");
+    }
+</script>

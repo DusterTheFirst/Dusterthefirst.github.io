@@ -9,22 +9,15 @@
     </head>
     <body>
         <div id="header"></div>
-        <div id="headerspacer">&nbsp;</div>
-        <script>
-            $("#header").load('/res/include/header.html');
-            var head = $("#header").height();
-            $("#headerspacer").height(head);
-        </script>
-        <div id="jumbotron">
+        <div id="headerspacer" class="desktop">&nbsp;</div>
+        <div id="headerspacer" class="mobile">&nbsp;</div>
+        <script>$("#header").load('/res/include/header.html');</script>
+        <div id="jumbotron" class="show">
             <div class="contain">
                 <h1 class="title">DusterTheFirst</h1>
-                <div class="jitem"><a href="#about">About Me</a></div>
+                <a href="#about">About Me</a>
             </div>
         </div>
-        <div id="feed">
-            <br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts<br>butts
-        </div>
-        <script src="res/private/feed.js"></script>
         <div class="feeditem hid">
             <a class="link" href="#">
                 <b><div class="title"></div></b>
@@ -34,5 +27,7 @@
             <div class="feedcontent"></div>
             <i><div class="feeddate"></div></i>
         </div>
+        <div id="feed"></div>
+        <script src="res/private/feed.js"></script>
     </body>
 </html>
