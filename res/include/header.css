@@ -35,6 +35,7 @@
 
 #header .mobile{
     color: #666;
+    background-color: #f3f3f3;
     display: none;
     position: fixed;
     top: 0;

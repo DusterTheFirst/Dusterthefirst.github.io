@@ -12,10 +12,16 @@
         "date":"Date Of Post",
         "content":"Content To Be Shown"
     },
-    "dust":{
+    "Memes":{
         "link":"/2048",
         "linkname":"DusterTheFirst > 2048",
         "date":"Friday, November 11, 2016",
         "content":"My Site Is Being Renovated..<br> Please Wait.<br> Click The Title For Fun"
+    },
+    "Pardon My Memes":{
+        "link":"/",
+        "linkname":"DusterTheFirst",
+        "date":"Thursday, November 10, 2016",
+        "content":"Please Pardon The Extreme Changes, Pages Will Come And Go"
     }
 }
