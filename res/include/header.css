@@ -56,8 +56,8 @@
     position: absolute;
     top: 0;
     right: 0;
-    height: 2em;
-    line-height: 2em;
+    height: 3em;
+    line-height: 3em;
     text-align: right;
     padding-right: 10px;
     padding-left: 10px;
@@ -67,7 +67,7 @@
 #header .mobile #menu ul {
     position: fixed;
     list-style-type: none;
-    top: 2em;
+    top: 3em;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -108,7 +108,7 @@
 }
 
 /*Mobile Changes*/
-@media  only screen and (max-width: 426px){
+@media only screen and (max-width: 426px){
     #headerspacer.desktop{
         display: none;
     }
@@ -125,11 +125,11 @@
 }
 
 /*Tablet Changes*/
-@media  only screen and (max-width: 768px){
+@media only screen and (max-width: 768px){
    
 }
 
 /*TV Or Large Display*/
-@media  only screen and (max-width: 2560px){
+@media only screen and (max-width: 2560px){
     
 }
