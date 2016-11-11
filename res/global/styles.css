@@ -45,9 +45,36 @@ h1, h2, h3, h4, h5{
     transition: color .7s, background-color .7s;
     text-align: center;
 }
-#jumbotron a:hover, a:focus{
+#jumbotron a:hover{
     color: black;
     background-color: azure;
+}
+
+/*Mini Jumbotron*/
+#minitron{
+    display: block;
+    color: aliceblue;
+    position: relative;
+    background-image: url(/res/media/images/backimage.png);
+    background-image: linear-gradient(rgba(255,255,255,0), rgba(0,0,0,.8)), url(/res/media/images/backimage.png);
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-position: center; 
+    height: 20%;
+    text-align: center;
+}
+#minitron .title{
+    font-size: 3em;
+    color: aliceblue;
+    text-align: center;
+    padding: .4em;
+}
+#minitron .contain{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translate(0%, -50%);
 }
 
 #feed{
@@ -55,7 +82,7 @@ h1, h2, h3, h4, h5{
 }
 
 /*Mobile Changes*/
-@media  only screen and (max-width: 426px){
+@media only screen and (max-width: 426px){
     #headerspacer.desktop{
         display: none;
     }
@@ -73,6 +100,13 @@ h1, h2, h3, h4, h5{
         display: none;
     }
     
+    #minitron{
+        z-index: -100000;
+    }
+    #minitron .title{
+        font-size: 2em;
+    }
+    
     #header .desktop{
         display: none;
     }
@@ -82,13 +116,12 @@ h1, h2, h3, h4, h5{
 }
 
 /*Tablet Changes*/
-@media  only screen and (max-width: 768px){
+@media only screen and (max-width: 768px){
     #jumbotron a{
         display: none;
     }
-}
-
-/*TV Or Large Display*/
-@media  only screen and (max-width: 2560px){
     
+    #minitron .title{
+        font-size: 2em;
+    }
 }
