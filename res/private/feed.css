@@ -20,7 +20,7 @@
     font-size: 1.5em;
 }
 .feeditem .link .desc{
-    font-size: .5em;
+    font-size: .7em;
     color: forestgreen;
 }
 .feeditem a:visited{
@@ -31,12 +31,6 @@
     color: slategray
 }
 .feeditem .feedcontent{
+    font-size: 1.4em;
     color: dimgray;
-}
-
-.hid{
-    display: none;
-}
-
-#feed{
 }

@@ -3,31 +3,29 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="res/global/styles.css">
-        <link rel="stylesheet" type="text/css" href="res/private/feed.css">
         <title>DusterTheFirst</title>
         <script src="/res/global/jquery-3.1.1.js"></script>
     </head>
     <body>
+<!--        HEADER-->
         <div id="header"></div>
         <div id="headerspacer" class="desktop">&nbsp;</div>
         <div id="headerspacer" class="mobile">&nbsp;</div>
-        <script>$("#header").load('/res/include/header.html');</script>
-        <div id="jumbotron" class="show">
+        <script src="res/include/headerinclude.js"></script>
+<!--        /HEADER-->
+<!--        JUMBOTRON-->
+        <div id="jumbotron">
             <div class="contain">
                 <h1 class="title">DusterTheFirst</h1>
                 <a href="#about">About Me</a>
             </div>
         </div>
-        <div class="feeditem hid">
-            <a class="link" href="#">
-                <b><div class="title"></div></b>
-                <i><div class="desc"></div></i>
-            </a>
-            <hr>
-            <div class="feedcontent"></div>
-            <i><div class="feeddate"></div></i>
-        </div>
+<!--        /JUMBOTRON-->
+<!--        FEED-->
         <div id="feed"></div>
         <script src="res/private/feed.js"></script>
+        <link rel="stylesheet" type="text/css" href="res/private/feed.css">
+<!--        ADD FEED-->
+        
     </body>
 </html>
