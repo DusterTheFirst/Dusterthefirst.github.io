@@ -1,7 +1,4 @@
 
-    CountDownTimer('02/19/2012 10:1 AM', 'countdown');
-    CountDownTimer('02/20/2012 10:1 AM', 'newcountdown');
-
     function CountDownTimer(dt, id)
     {
         var end = new Date(dt);
