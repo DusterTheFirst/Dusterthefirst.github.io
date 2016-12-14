@@ -19,6 +19,7 @@
     color: dodgerblue;
     text-align: left;
     font-size: 1.5em;
+    word-wrap: break-word;
 }
 .feeditem .link .desc{
     font-size: .7em;
