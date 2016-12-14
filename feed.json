@@ -12,11 +12,17 @@
         "date":"Date Of Post",
         "content":"Content To Be Shown"
     },
-    "This Dude":{
-        "link":"https://www.indy100.com/article/presenting-donald-trumps-best-worst-tweets--Z1r35m__Zg",
-        "linkname":"indy100 > article > trump tweets",
+    "Suggestions And Issues!":{
+        "link":"https://quickdraw.withgoogle.com/#",
+        "linkname":"QuickDraw > WithGoogle",
         "date":"Wednesday, December 14, 2016",
-        "content":"well this dude will be inaugurated soon.. too soon."
+        "content":"I have not been making things lately, so heres something to keep you occupied"
+    },
+    "Quick, Draw!":{
+        "link":"https://quickdraw.withgoogle.com/#",
+        "linkname":"QuickDraw > WithGoogle",
+        "date":"Wednesday, December 14, 2016",
+        "content":"I have not been making things lately, so heres something to keep you occupied"
     },
     "Free DANK memes":{
         "link":"https://dusterthefirst.github.io/res/media/images/favicon.png",
