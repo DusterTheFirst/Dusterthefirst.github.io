@@ -1,0 +1,50 @@
+<!--
+---
+permalink: /404.html
+---
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="res/global/styles.css">
+        <link rel="shortcut icon" type="image/png" href="/res/media/images/favicon.png"/>
+        <title>DusterTheFirst</title>
+        <script src="/res/global/jquery-3.1.1.js"></script>
+        <style>
+            #fourofour{
+                position: absolute;
+                top: 3em;
+                left 0;
+                right: 0;
+                bottom: 0;
+                width: 100%;
+            }
+            #msg{
+                color: firebrick;
+            }
+            #help{
+                color: grey;
+            }
+        </style>
+    </head>
+    <body>
+<!--        HEADER-->
+        <div id="header"></div>
+        <div id="headerspacer" class="desktop">&nbsp;</div>
+        <div id="headerspacer" class="mobile">&nbsp;</div>
+        <script src="res/include/headerinclude.js"></script>
+<!--        /HEADER-->
+        <div id="fourofour">
+            <div id="msg">
+                <h1>404</h1>
+                <h1>Page Not Found</h1>
+            </div>
+            <div id="help">
+                <span id="page"></span> Is Not On This Webserver, Check Your Spelling And Try Again
+                <br>
+            </div>
+            <script>$("#page").text(window.location.pathname)</script>
+        </div>
+    </body>
+</html>
