@@ -1,3 +1,7 @@
+---
+Cool:beans:are:cool
+---
+
 # DusterTheFirst Webpage
 
 <div class="feeditem">
