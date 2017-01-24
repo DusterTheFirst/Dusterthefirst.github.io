@@ -1,5 +1,6 @@
-|Order Of Priorty|TODO------:|
-|0--------------:|Fix Folders|
+|Order Of Priorty|TODO       |
+|----------------|-----------|
+|0               |Fix Folders|
 
 # DusterTheFirst Webpage
 
