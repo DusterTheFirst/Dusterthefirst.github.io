@@ -1,5 +1,5 @@
 ---
-Cool:beans:are:cool
+Cool:beans
 ---
 
 # DusterTheFirst Webpage
