@@ -4,6 +4,7 @@ body{
     font-family: helvetica;
     background-color: #f3f3f3;
     text-align: center;
+    transition: all 1s;
 }
 
 /*Style Presets*/
