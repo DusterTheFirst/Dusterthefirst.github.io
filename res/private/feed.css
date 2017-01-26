@@ -1,4 +1,4 @@
-@keyframes dropHeader {
+@keyframes wide {
     0% {
         width: 0;
     }
@@ -8,6 +8,7 @@
 }
 
 .feeditem{
+    animation: wide 1s;
     color: black;
     text-align: left;
     margin-top: 10px;
