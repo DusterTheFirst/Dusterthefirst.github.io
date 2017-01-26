@@ -1,6 +1,6 @@
 @keyframes wide {
     0% {
-        width: 0;
+        width: 0%;
     }
     100% {
         width: 80%;
@@ -8,12 +8,15 @@
 }
 
 .feeditem{
-    animation: wide 1s;
+  animation-name: wide;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
     color: black;
     text-align: left;
     margin-top: 10px;
     margin-bottom: 10px;
     background-color: white;
+    width: 0%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 2px;
