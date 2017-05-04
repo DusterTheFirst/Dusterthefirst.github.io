@@ -12,6 +12,12 @@
         "date":"Date Of Post",
         "content":"Content To Be Shown"
     },
+    "Bots, all the bots":{
+        "link":"https://github.com/DusterTheFirst/Grandayy-Bot",
+        "linkname":"Github > DusterTheFirst > Grandayy-Bot",
+        "date":"Thursday, May 4, 2017",
+        "content":"I have been working on developing a bot for Grandayy's discord server, and will hopefully be able to fix al, the bugs before "
+    },
     "Grandayy":{
         "link":"https://www.youtube.com/channel/UCa6TeYZ2DlueFRne5DyAnyg",
         "linkname":"Youtube > Grandayy",
