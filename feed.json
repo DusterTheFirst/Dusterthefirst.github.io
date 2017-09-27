@@ -12,6 +12,12 @@
         "date":"Date Of Post",
         "content":"Content To Be Shown"
     },
+    "v4":{
+        "link":"https://dusterthefirst.github.io/v4",
+        "linkname":"dusterthefirst > v4",
+        "date":"Wednsday, September 27, 2017",
+        "content":"welp, rip this site. time for version 4<br>FUN FACT: this is the 3rd iteration of this site (the first one was trash, the second one was trash, this one is trash)"
+    },
     "I do things now":{
         "link":"/about.html",
         "linkname":"Dusterthefirst > About",
@@ -23,11 +29,5 @@
         "linkname":"Google",
         "date":"Tuesday, July 4, 2017",
         "content":"Happy america day"
-    },
-    "v4":{
-        "link":"https://dusterthefirst.github.io/v4",
-        "linkname":"dusterthefirst > v4",
-        "date":"Wednsday, September 27, 2017",
-        "content":"welp, rip this site. time for version 4;FUN FACT: this is the 3rd iteration of this site (the first one was trash, the second one was trash, this one is trash)"
     }
 }
